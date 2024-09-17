@@ -1,0 +1,16 @@
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    // Hämta värden från formuläret
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    // Skicka ett enkelt meddelande i konsolen när formuläret skickas (kan ersättas med serverkod för att hantera data)
+    console.log(`Namn: ${name}, E-post: ${email}, Meddelande: ${message}`);
+
+    alert('Tack för ditt meddelande! Jag återkommer till dig snart.');
+
+    // Rensa formuläret
+    document.getElementById('contactForm').reset();
+});

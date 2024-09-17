@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Välkommen till en plats där du blir lyssnad på</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Välkommen till en plats där du blir lyssnad på</h1>
+        <p>
+            Ibland hamnar vi i vägskäl där det kan kännas svårt att veta vilken riktning vi ska ta. 
+            Oavsett om du står inför personliga val eller upplever att kommunikationen i din relation 
+            går trögt, finns jag här för att lyssna och stötta dig.
+        </p>
+        <p>
+            Som utbildad coach och parterapeut erbjuder jag ett tryggt utrymme där du kan utforska dina 
+            tankar, få nya perspektiv och hitta de verktyg du behöver för att ta nästa steg, antingen 
+            individuellt eller tillsammans med din partner.
+        </p>
+    </header>
+
+    <section>
+        <h2>Kontakta mig</h2>
+        <form id="contactForm">
+            <label for="name">Namn:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-post:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Meddelande:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Skicka</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Din Coach och Parterapeut. Alla rättigheter förbehållna.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
